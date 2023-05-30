@@ -67,6 +67,7 @@ function loadData() {
     url: "api.php",
     data: sendingData,
     success: function (data) {
+      
       let status = data.status;
       let response = data.data;
 
